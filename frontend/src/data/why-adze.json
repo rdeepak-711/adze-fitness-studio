@@ -1,0 +1,30 @@
+{
+  "title": "Why train with Adze?",
+  "description": "Adze Fitness Studio is a people-first community that celebrates real progress, accountability, and positivity.",
+  "cards": [
+    {
+      "icon": "users",
+      "title": "Real Community",
+      "copy": "Family-style support with members who motivate each other inside and outside the studio.",
+      "image": "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "icon": "certificate",
+      "title": "Certified Coaches",
+      "copy": "Led by Kevin, Suriya, Rohith, and Kavin — each bringing specialized credentials and experience.",
+      "image": "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "icon": "balance",
+      "title": "Balanced Wellness",
+      "copy": "Strength, mobility, breath work, and mindset practices curated for long-term transformation.",
+      "image": "https://images.unsplash.com/photo-1554344728-77cf90d9ed26?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "icon": "chart",
+      "title": "Measurable Progress",
+      "copy": "Progress tracking, monthly assessments, and goal reviews to keep your momentum strong.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}

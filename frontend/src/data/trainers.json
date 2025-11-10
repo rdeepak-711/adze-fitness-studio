@@ -1,0 +1,54 @@
+{
+  "heading": "Meet the coaches leading the movement.",
+  "intro": "Each Adze coach is a transformation specialist with certifications, empathy, and Chennai grit.",
+  "trainers": [
+    {
+      "name": "Kevin Antony",
+      "title": "Head Coach & Co-founder",
+      "certifications": ["ACE Certified Personal Trainer", "Nutrition Coach Level 2"],
+      "bio": "Kevin architected Adze’s functional training system and leads our transformation programs with data-backed progression.",
+      "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=900&q=80",
+      "specialties": ["Strength Periodization", "Body Recomposition", "Habit Coaching"],
+      "social": {
+        "instagram": "https://instagram.com/kevin_adze"
+      }
+    },
+    {
+      "name": "Suriya Prakash",
+      "title": "Performance Coach",
+      "certifications": ["CrossFit Level 1", "Kettlebell Athletics Coach"],
+      "bio": "Suriya’s high-energy HIIT and kettlebell sessions are legendary. He keeps the room buzzing and your form locked in.",
+      "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=900&q=80",
+      "specialties": ["HIIT Programming", "Kettlebell Flow", "Group Motivation"],
+      "social": {
+        "instagram": "https://instagram.com/suriya_adze"
+      }
+    },
+    {
+      "name": "Rohith Menon",
+      "title": "Mobility & Recovery Specialist",
+      "certifications": ["Yoga Alliance RYT-500", "FRC Mobility Specialist"],
+      "bio": "Rohith bridges strength and serenity. His yoga flows and mobility labs restore alignment and focus.",
+      "image": "https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?auto=format&fit=crop&w=900&q=80",
+      "specialties": ["Vinyasa Yoga", "Breathwork", "Mobility Therapy"],
+      "social": {
+        "instagram": "https://instagram.com/rohith_adze"
+      }
+    },
+    {
+      "name": "Kavin Raj",
+      "title": "Strength & Conditioning Coach",
+      "certifications": ["Certified Strength Coach Level 2", "Precision Nutrition L1"],
+      "bio": "Kavin designs athlete-style conditioning plans with progressive overload and supportive nutrition touchpoints.",
+      "image": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?auto=format&fit=crop&w=900&q=80",
+      "specialties": ["Athletic Conditioning", "Speed & Agility", "Nutrition Habits"],
+      "social": {
+        "instagram": "https://instagram.com/kavin_adze"
+      }
+    }
+  ],
+  "highlight": {
+    "title": "Coaches who train alongside you.",
+    "copy": "Every Adze coach trains with our community, celebrates milestones, and crafts plans that fit real Chennai lifestyles."
+  }
+}

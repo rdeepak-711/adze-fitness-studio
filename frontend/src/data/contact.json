@@ -1,0 +1,43 @@
+{
+  "heading": "Let’s build your transformation plan.",
+  "subheading": "Reach out, visit the studio, or drop us a WhatsApp message. Our team replies within the hour during studio timings.",
+  "studio": {
+    "address": "11 Kakkan Street, Madipakkam, Chennai - 600091",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.978219157434!2d80.1998131!3d12.9648698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525dc2a2d4a7f9%3A0x40a2852fde0ec6fc!2sAdze%20Fitness%20Studio!5e0!3m2!1sen!2sin!4v1736000000000!5m2!1sen!2sin",
+    "hours": [
+      "Mon - Fri: 5:30 AM - 10:00 PM",
+      "Sat: 6:00 AM - 9:00 PM",
+      "Sun: Community events & recovery"
+    ]
+  },
+  "contacts": [
+    {
+      "label": "Call",
+      "value": "+91 93426 24788",
+      "href": "tel:+919342624788"
+    },
+    {
+      "label": "WhatsApp",
+      "value": "Chat with our team",
+      "href": "https://wa.me/919342624788"
+    },
+    {
+      "label": "Instagram",
+      "value": "@adzefitnesstudio",
+      "href": "https://instagram.com/adzefitnesstudio"
+    }
+  ],
+  "form": {
+    "successMessage": "Thanks! Our coaches will reach out shortly to book your preferred slot.",
+    "fields": [
+      { "name": "fullName", "label": "Full Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone Number", "type": "tel", "required": true },
+      { "name": "timeSlot", "label": "Preferred Time Slot", "type": "select", "options": ["5:30 AM - 7:00 AM", "7:00 AM - 9:00 AM", "5:00 PM - 7:00 PM", "7:00 PM - 9:00 PM"], "required": true },
+      { "name": "goal", "label": "Training Goal", "type": "textarea", "required": false }
+    ],
+    "cta": {
+      "label": "Submit Inquiry",
+      "type": "submit"
+    }
+  }
+}

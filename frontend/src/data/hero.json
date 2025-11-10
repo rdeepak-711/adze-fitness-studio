@@ -1,0 +1,23 @@
+{
+  "headline": "Train Together. Grow Stronger.",
+  "subtext": "Join Madipakkam’s most supportive fitness community. Led by expert trainers. Powered by real people.",
+  "primaryCta": {
+    "label": "Book Your Free Trial",
+    "href": "#book-trial"
+  },
+  "secondaryCta": {
+    "label": "Message on WhatsApp",
+    "href": "https://wa.me/919342624788"
+  },
+  "backgroundMedia": {
+    "type": "video",
+    "src": "https://player.vimeo.com/external/426494174.sd.mp4?s=f9c87c1849c5cf85eb3bd1841ac0ab35ea8d974e&profile_id=164&oauth2_token_id=57447761",
+    "fallbackImage": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1600&q=80",
+    "overlay": true
+  },
+  "stats": [
+    { "label": "Members Strong", "value": "450+" },
+    { "label": "Certified Coaches", "value": "4" },
+    { "label": "Weekly Classes", "value": "38" }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "heading": "Transformations that inspire.",
+  "intro": "Real members. Real stories. Real growth. Hear from the Adze family about their journey.",
+  "testimonials": [
+    {
+      "name": "Anitha Ravi",
+      "handle": "@anitha_trains",
+      "role": "Member since 2022",
+      "quote": "Adze isn't a regular gym. The trainers remember your goals, your kids' names, and they show up when you need the extra push. I've lost 18 kg and gained so much confidence. The community here is everything.",
+      "rating": 5,
+      "media": {
+        "type": "video",
+        "thumbnail": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=900&q=80",
+        "url": "https://www.instagram.com/reel/CxyzAdzeAnitha/"
+      }
+    },
+    {
+      "name": "Sathish Kumar",
+      "handle": "@sathish_getsfit",
+      "role": "Lost 14 kg in 6 months",
+      "quote": "From day one Kevin coached me like a friend. The weekly assessments kept me accountable without the guilt. I went from barely walking to running 5K. This place changed my life.",
+      "rating": 5,
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1550345332-09e3ac987658?auto=format&fit=crop&w=900&q=80"
+      }
+    },
+    {
+      "name": "Priya Lakshmi",
+      "handle": "@priya_flows",
+      "role": "Yoga & Core member",
+      "quote": "The glass studio vibes, the playlists, the community — it's the reset button I didn't know I needed. Rohith's yoga classes have transformed my flexibility and mental clarity.",
+      "rating": 5,
+      "media": {
+        "type": "video",
+        "thumbnail": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=900&q=80",
+        "url": "https://www.instagram.com/reel/CxyzAdzePriya/"
+      }
+    },
+    {
+      "name": "Raghav Narayan",
+      "handle": "@raghav_strength",
+      "role": "Functional Strength athlete",
+      "quote": "It's the only place where my powerlifting meets mobility work. Coach Suriya's energy is unreal. I've hit PRs I never thought possible, and the form coaching is next level.",
+      "rating": 5,
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1514516430032-7f40ed986c5f?auto=format&fit=crop&w=900&q=80"
+      }
+    },
+    {
+      "name": "Meera Krishnan",
+      "handle": "@meera_fit",
+      "role": "HIIT Bootcamp regular",
+      "quote": "I was intimidated by group classes, but Adze made me feel welcome from day one. The energy in Suriya's bootcamp sessions is infectious. I'm stronger, faster, and more confident than ever.",
+      "rating": 5,
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80"
+      }
+    },
+    {
+      "name": "Arjun Menon",
+      "handle": "@arjun_transforms",
+      "role": "Personal Coaching client",
+      "quote": "Kavin designed a program that fit my crazy work schedule. The 1-on-1 attention and nutrition guidance helped me drop 12 kg while building muscle. Worth every rupee.",
+      "rating": 5,
+      "media": {
+        "type": "video",
+        "thumbnail": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=80",
+        "url": "https://www.instagram.com/reel/CxyzAdzeArjun/"
+      }
+    },
+    {
+      "name": "Deepika Suresh",
+      "handle": "@deepika_wellness",
+      "role": "Wellness program member",
+      "quote": "The combination of strength training and yoga has been game-changing. My back pain is gone, my posture improved, and I feel 10 years younger. The holistic approach here is unmatched.",
+      "rating": 5,
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=80"
+      }
+    },
+    {
+      "name": "Vikram Reddy",
+      "handle": "@vikram_lifts",
+      "role": "Functional Strength athlete",
+      "quote": "Best investment I've made in myself. The coaches are knowledgeable, the community is supportive, and the results speak for themselves. I've gained 8 kg of muscle in 8 months.",
+      "rating": 5,
+      "media": {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=900&q=80"
+      }
+    }
+  ],
+  "coachStories": [
+    {
+      "coach": "Suriya Prakash",
+      "title": "From 95kg to 72kg: My Transformation Journey",
+      "story": "I started my fitness journey at Adze as a member, struggling with weight and confidence. Through consistent training and the support of this community, I transformed my body and my life. Now I'm paying it forward as a coach, helping others achieve their goals.",
+      "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=1200&q=80",
+      "beforeAfter": {
+        "before": "95kg, low energy, limited mobility",
+        "after": "72kg, high energy, competitive athlete"
+      }
+    },
+    {
+      "coach": "Kevin Antony",
+      "title": "Building Adze: From Garage to Community",
+      "story": "Adze started in my garage with a few friends who wanted better training. We believed fitness should be accessible, supportive, and transformative. Today, we're a family of 450+ members, but the core values remain the same: real people, real progress, real community.",
+      "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1200&q=80",
+      "beforeAfter": {
+        "before": "Small garage sessions",
+        "after": "450+ member community, 4 certified coaches"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "heading": "Live from Instagram",
+  "handle": "@adzefitnesstudio",
+  "cta": {
+    "label": "Follow our journey",
+    "href": "https://instagram.com/adzefitnesstudio"
+  },
+  "posts": [
+    {
+      "id": "post-001",
+      "image": "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=800&q=80",
+      "alt": "Group training session in full swing",
+      "url": "https://www.instagram.com/p/CxyzAdze001/",
+      "caption": "Squad energy is undefeated. #TrainTogether",
+      "likes": 234,
+      "comments": 18
+    },
+    {
+      "id": "post-002",
+      "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+      "alt": "Coach guiding a member through kettlebell swing",
+      "url": "https://www.instagram.com/p/CxyzAdze002/",
+      "caption": "Coach Suriya keeping the form crisp. #AdzeCoaches",
+      "likes": 189,
+      "comments": 12
+    },
+    {
+      "id": "post-003",
+      "image": "https://images.unsplash.com/photo-1580261450046-d0a30080dc9b?auto=format&fit=crop&w=800&q=80",
+      "alt": "Yoga flow in the glass studio",
+      "url": "https://www.instagram.com/p/CxyzAdze003/",
+      "caption": "Sunrise flows with Rohith. #AdzeWellness",
+      "likes": 156,
+      "comments": 9
+    },
+    {
+      "id": "post-004",
+      "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80",
+      "alt": "Member transformation high-five",
+      "url": "https://www.instagram.com/p/CxyzAdze004/",
+      "caption": "Transformation Tuesday shoutout to @sathish_getsfit!",
+      "likes": 312,
+      "comments": 24
+    },
+    {
+      "id": "post-005",
+      "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=800&q=80",
+      "alt": "Member doing deadlift with perfect form",
+      "url": "https://www.instagram.com/p/CxyzAdze005/",
+      "caption": "PR alert! @raghav_strength hitting 180kg. Form > Ego. #AdzeStrength",
+      "likes": 278,
+      "comments": 31
+    },
+    {
+      "id": "post-006",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
+      "alt": "HIIT bootcamp class in action",
+      "url": "https://www.instagram.com/p/CxyzAdze006/",
+      "caption": "Monday morning energy. No excuses, just results. #HIITBootcamp",
+      "likes": 201,
+      "comments": 15
+    },
+    {
+      "id": "post-007",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
+      "alt": "Wellness workshop session",
+      "url": "https://www.instagram.com/p/CxyzAdze007/",
+      "caption": "Posture clinic was a game-changer. Train smart, recover smarter. #AdzeWellness",
+      "likes": 167,
+      "comments": 11
+    },
+    {
+      "id": "post-008",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80",
+      "alt": "Community event at the studio",
+      "url": "https://www.instagram.com/p/CxyzAdze008/",
+      "caption": "Community cookout after Saturday training. This is what it's all about. #AdzeFamily",
+      "likes": 445,
+      "comments": 42
+    }
+  ]
+}

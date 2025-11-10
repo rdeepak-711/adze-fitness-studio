@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Custom Colors */
+  --color-charcoal: #111111;
+  --color-crimson: #d72638;
+  --color-white: #ffffff;
+  --color-light-gray: #efefef;
+
+  /* Custom Font Families */
+  --font-body: "Poppins", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+}
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply m-0 font-body text-charcoal bg-white antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-bold m-0;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl lg:text-3xl;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+
+  /* Custom Scrollbar Styles */
+  .overflow-x-auto {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(215, 38, 56, 0.3) #efefef;
+  }
+
+  .overflow-x-auto::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .overflow-x-auto::-webkit-scrollbar-track {
+    background: #efefef;
+    border-radius: 4px;
+  }
+
+  .overflow-x-auto::-webkit-scrollbar-thumb {
+    background: rgba(215, 38, 56, 0.3);
+    border-radius: 4px;
+  }
+
+  .overflow-x-auto::-webkit-scrollbar-thumb:hover {
+    background: rgba(215, 38, 56, 0.5);
+  }
+}

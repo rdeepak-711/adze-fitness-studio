@@ -1,0 +1,71 @@
+{
+  "heading": "Memberships that keep momentum high.",
+  "subheading": "Transparent plans with community perks, coach access, and flexible schedules.",
+  "tiers": [
+    {
+      "name": "Monthly Momentum",
+      "price": "₹4,999",
+      "billing": "per month",
+      "badge": "Popular",
+      "features": [
+        "Unlimited group classes (HIIT, Strength, Yoga)",
+        "2 personal coach check-ins per month",
+        "Access to wellness workshops",
+        "Goal tracking dashboard",
+        "Free trial week for new members",
+        "Community events and challenges",
+        "Locker and shower facilities"
+      ],
+      "cta": {
+        "label": "Book a Tour",
+        "href": "https://wa.me/919342624788"
+      }
+    },
+    {
+      "name": "Quarterly Commitment",
+      "price": "₹13,499",
+      "billing": "every 3 months",
+      "badge": "Best Value",
+      "features": [
+        "Unlimited group classes (all programs)",
+        "Monthly personal coaching session (45 min)",
+        "Nutrition and habit planning consultations",
+        "Members-only events and workshops",
+        "Priority class booking",
+        "Quarterly body composition assessment",
+        "Recovery and mobility programming"
+      ],
+      "cta": {
+        "label": "Call Now",
+        "href": "tel:+919342624788"
+      }
+    },
+    {
+      "name": "Annual Transformation",
+      "price": "₹49,999",
+      "billing": "per year",
+      "features": [
+        "Unlimited group classes + 12 PT sessions (1 per month)",
+        "Quarterly body composition assessments",
+        "Priority booking and VIP events",
+        "Custom recovery & mobility programming",
+        "Annual nutrition consultation package",
+        "Exclusive access to advanced workshops",
+        "Complimentary guest passes (4 per year)",
+        "Adze merchandise and swag"
+      ],
+      "cta": {
+        "label": "Book a Tour",
+        "href": "https://wa.me/919342624788"
+      }
+    }
+  ],
+  "promo": {
+    "headline": "First week free. No pressure.",
+    "copy": "Experience the Adze difference with zero commitment. Train with us for seven days, meet the community, and then decide.",
+    "cta": {
+      "label": "Claim Your Free Week",
+      "href": "#book-trial"
+    }
+  }
+}

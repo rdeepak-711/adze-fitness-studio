@@ -1,0 +1,87 @@
+{
+  "heading": "Programs built for every body.",
+  "intro": "Choose the experience that matches your goals. Each track is designed to deliver strength, stamina, and confidence — always supported by our coaching team.",
+  "programs": [
+    {
+      "slug": "functional-strength",
+      "name": "Functional Strength Training",
+      "level": ["Intermediate", "Advanced"],
+      "duration": "60-minute sessions",
+      "image": "https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&w=1200&q=80",
+      "description": "Build real-world strength through compound movements, progressive overload, and expert form coaching. Perfect for athletes and serious lifters.",
+      "benefits": [
+        "Compound lifts and movement coaching (squats, deadlifts, presses)",
+        "Weekly PR tracking and mobility warm-ups",
+        "Small group attention capped at 12 athletes",
+        "Periodized programming for continuous progress",
+        "Injury prevention through proper technique",
+        "Strength assessments every 8 weeks"
+      ],
+      "schedule": "Mon/Wed/Fri: 6:00 AM, 7:00 PM | Tue/Thu: 6:30 PM | Sat: 8:00 AM",
+      "coach": "Kevin Antony & Kavin Raj",
+      "cta": "Join Now"
+    },
+    {
+      "slug": "hiit-bootcamp",
+      "name": "HIIT & Bootcamp",
+      "level": ["Beginner", "Intermediate"],
+      "duration": "45-minute burners",
+      "image": "https://images.unsplash.com/photo-1541534401786-2077eed87a74?auto=format&fit=crop&w=1200&q=80",
+      "description": "High-intensity interval training that torches calories, builds endurance, and keeps you coming back for more. No two classes are the same.",
+      "benefits": [
+        "Cardio conditioning with interval training",
+        "Team challenges that keep energy high",
+        "Coach-led scaling for all fitness levels",
+        "Kettlebell, battle ropes, and bodyweight circuits",
+        "Calorie burn: 400-600 per session",
+        "Perfect for weight loss and cardiovascular health"
+      ],
+      "schedule": "Daily: 6:00 AM, 7:00 AM, 6:00 PM, 7:00 PM",
+      "coach": "Suriya Prakash",
+      "cta": "Join Now"
+    },
+    {
+      "slug": "yoga-core",
+      "name": "Yoga & Core Conditioning",
+      "level": ["All Levels"],
+      "duration": "60-minute flows",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=80",
+      "description": "Vinyasa flows and core work that restore mobility, build stability, and calm the nervous system. Perfect complement to strength training.",
+      "benefits": [
+        "Breath-led flows to improve mobility",
+        "Core stability drills to protect your spine",
+        "Calming cooldowns for nervous system reset",
+        "Hip and shoulder mobility for better lifting",
+        "Stress relief and mental clarity",
+        "Injury prevention and recovery"
+      ],
+      "schedule": "Mon/Wed/Fri: 6:30 AM, 6:30 PM | Tue/Thu: 7:00 AM | Sat: 7:30 AM",
+      "coach": "Rohith Menon",
+      "cta": "Join Now"
+    },
+    {
+      "slug": "personal-coaching",
+      "name": "Personal Coaching (1-on-1)",
+      "level": ["Custom"],
+      "duration": "45 or 60-minute sessions",
+      "image": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=1200&q=80",
+      "description": "Fully customized training and nutrition plans designed around your goals, schedule, and lifestyle. Maximum results in minimum time.",
+      "benefits": [
+        "Individual assessments and tailored programming",
+        "Nutrition check-ins and habit coaching",
+        "Flexible scheduling to match your calendar",
+        "Body composition tracking and progress photos",
+        "Goal setting and accountability check-ins",
+        "Access to all group classes included"
+      ],
+      "schedule": "Flexible - Book sessions based on your availability",
+      "coach": "All coaches available",
+      "pricing": "Starting at ₹2,500 per session",
+      "cta": "Book a Strategy Call"
+    }
+  ],
+  "cta": {
+    "label": "Explore All Programs",
+    "href": "/programs"
+  }
+}

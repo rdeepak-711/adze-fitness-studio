@@ -1,0 +1,32 @@
+{
+  "story": {
+    "title": "Family-first fitness, born in Madipakkam.",
+    "paragraphs": [
+      "Adze Fitness Studio began when a handful of trainers turned their garage sessions into a family-style movement. Madipakkam needed a premium gym that felt human — where neighbours become teammates and coaching is rooted in empathy.",
+      "We believe transformation is a group effort. Every class, every check-in, every celebration is designed to build confidence, consistency, and character.",
+      "Adze is not just a gym. It’s a movement powered by real people showing up for each other."],
+    "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1200&q=80"
+  },
+  "founderNote": {
+    "quote": "We don’t just train bodies — we train character, confidence, and consistency.",
+    "author": "Kevin Antony",
+    "title": "Head Coach & Co-founder"
+  },
+  "mission": {
+    "heading": "Our Mission Pillars",
+    "pillars": [
+      {
+        "title": "Movement",
+        "description": "Programming that keeps you strong, mobile, and injury-free."
+      },
+      {
+        "title": "Mindset",
+        "description": "Coaching conversations and community rituals that build discipline and joy."
+      },
+      {
+        "title": "Motivation",
+        "description": "High-energy sessions, progress tracking, and events that keep momentum high."
+      }
+    ]
+  }
+}

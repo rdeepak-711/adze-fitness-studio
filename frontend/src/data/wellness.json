@@ -1,0 +1,32 @@
+{
+  "heading": "Wellness Corner",
+  "subheading": "Train smart. Recover smarter.",
+  "sections": [
+    {
+      "title": "Yoga Therapy",
+      "copy": "Grounding flows led by Rohith to unlock mobility, balance, and mindful breath work.",
+      "image": "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=1000&q=80",
+      "pillars": ["Alignment", "Breath", "Presence"]
+    },
+    {
+      "title": "Meditation (coming soon)",
+      "copy": "Guided meditation rooms and sound bath evenings crafted to quiet the mind and reset stress.",
+      "image": "https://images.unsplash.com/photo-1494475673543-6a6a27143fc8?auto=format&fit=crop&w=1000&q=80",
+      "pillars": ["Calm", "Focus", "Clarity"]
+    },
+    {
+      "title": "Posture Clinics",
+      "copy": "Targeted drills to build bulletproof posture for desk warriors, athletes, and daily movers alike.",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1000&q=80",
+      "pillars": ["Mobility", "Strength", "Resilience"]
+    }
+  ],
+  "callout": {
+    "title": "Whole-person transformation.",
+    "copy": "We layer movement, mindset, and motivation so you can sustain progress without burning out.",
+    "cta": {
+      "label": "Explore Wellness Programs",
+      "href": "/wellness"
+    }
+  }
+}
