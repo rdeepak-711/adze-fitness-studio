@@ -12,7 +12,7 @@ const WhatsAppFAB = ({ phone = '919342624788', message = 'Hey Adze team! I would
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
-      className="fixed bottom-6 right-6 z-50 w-16 h-16 flex items-center justify-center shadow-xl hover:scale-110 transition-transform rounded-full"
+      className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center shadow-xl hover:scale-110 transition-all duration-300 hover:shadow-2xl rounded-full touch-manipulation"
     >
       <svg height="512" viewBox="0 0 176 176" width="512" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
         <g id="Layer_2" data-name="Layer 2">

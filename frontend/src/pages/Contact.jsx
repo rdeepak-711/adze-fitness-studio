@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import contactData from '../data/contact.json'
 import ContactForm from '../components/features/ContactForm'
+import SEO from '../components/layout/SEO'
 import Section from '../components/ui/Section'
 import Container from '../components/ui/Container'
 import Card from '../components/ui/Card'
@@ -17,12 +18,17 @@ const Contact = () => {
 
   return (
     <>
+      <SEO
+        title="Contact Us"
+        description="Get in touch with Adze Fitness Studio. Visit us at 11 Kakkan Street, Madipakkam, Chennai. Call, WhatsApp, or fill out our contact form to book your free trial."
+        keywords="contact Adze Fitness, gym address Chennai, fitness studio contact, book trial, gym location Madipakkam"
+      />
       {/* Hero Section */}
       <Section className="bg-gradient-to-b from-charcoal to-charcoal/95 text-white">
         <Container>
-          <div className="text-center">
-            <h1 className="text-4xl font-heading md:text-5xl lg:text-6xl">{data.heading}</h1>
-            <p className="mt-6 max-w-2xl mx-auto text-lg text-white/80">{data.subheading}</p>
+          <div className="text-center px-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading">{data.heading}</h1>
+            <p className="mt-4 sm:mt-6 max-w-2xl mx-auto text-base sm:text-lg text-white/80">{data.subheading}</p>
           </div>
         </Container>
       </Section>
@@ -30,21 +36,21 @@ const Contact = () => {
       {/* Main Contact Section */}
       <Section>
         <Container>
-          <div className="grid gap-12 lg:grid-cols-2">
+          <div className="grid gap-6 sm:gap-8 md:gap-12 lg:grid-cols-2">
             {/* Contact Form */}
             <div>
-              <Card className="p-8">
-                <h2 className="text-2xl font-heading mb-6">Book Your Free Trial</h2>
+              <Card className="p-5 sm:p-6 md:p-8">
+                <h2 className="text-xl sm:text-2xl font-heading mb-4 sm:mb-6">Book Your Free Trial</h2>
                 <ContactForm fields={data.form.fields} cta={data.form.cta} />
               </Card>
             </div>
 
             {/* Contact Information */}
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               {/* Contact Methods */}
-              <div className="grid gap-4">
+              <div className="grid gap-3 sm:gap-4">
                 {data.contacts.map((contact, index) => (
-                  <Card key={index} className="p-6">
+                  <Card key={index} className="p-4 sm:p-5 md:p-6">
                     <a
                       href={contact.href}
                       target={contact.href.startsWith('http') ? '_blank' : undefined}
@@ -78,8 +84,8 @@ const Contact = () => {
               </div>
 
               {/* Studio Hours */}
-              <Card className="p-6">
-                <h3 className="text-xl font-heading mb-4">Studio Hours</h3>
+              <Card className="p-4 sm:p-5 md:p-6">
+                <h3 className="text-lg sm:text-xl font-heading mb-3 sm:mb-4">Studio Hours</h3>
                 <ul className="space-y-2">
                   {data.studio.hours.map((hour, index) => (
                     <li key={index} className="flex items-center gap-3 text-base text-charcoal/70">
@@ -91,22 +97,6 @@ const Contact = () => {
                   ))}
                 </ul>
               </Card>
-
-              {/* Address */}
-              <Card className="p-6">
-                <h3 className="text-xl font-heading mb-4">Visit Us</h3>
-                <p className="text-base text-charcoal/70 mb-4">{data.studio.address}</p>
-                <Button
-                  as="a"
-                  href={`https://maps.google.com/?q=${encodeURIComponent(data.studio.address)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  variant="secondary"
-                  className="w-full"
-                >
-                  Get Directions
-                </Button>
-              </Card>
             </div>
           </div>
         </Container>
@@ -115,17 +105,17 @@ const Contact = () => {
       {/* Map Section */}
       <Section className="bg-light-gray">
         <Container>
-          <div className="rounded-3xl overflow-hidden shadow-lg">
+          <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg">
             <iframe
               src={data.studio.mapEmbed}
               width="100%"
-              height="450"
+              height="300"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Adze Fitness Studio Location"
-              className="w-full"
+              className="w-full sm:h-[400px] md:h-[450px]"
             />
           </div>
         </Container>

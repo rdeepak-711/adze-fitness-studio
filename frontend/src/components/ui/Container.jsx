@@ -8,7 +8,7 @@ const Container = ({ className, children, size = 'default' }) => {
   }
 
   return (
-    <div className={clsx('mx-auto w-full px-4 sm:px-6 lg:px-8', sizes[size], className)}>
+    <div className={clsx('mx-auto w-full px-4 sm:px-5 md:px-6 lg:px-8', sizes[size], className)}>
       {children}
     </div>
   )

@@ -16,8 +16,8 @@ const Section = ({
   const alignment = align === 'left' ? 'text-left items-start' : 'text-center items-center'
 
   return (
-    <section id={id} className={clsx('py-16 sm:py-20 lg:py-24', className)}>
-      <Container size={containerSize} className="flex flex-col gap-10">
+    <section id={id} className={clsx('py-10 sm:py-14 md:py-20 lg:py-24', className)}>
+      <Container size={containerSize} className="flex flex-col gap-6 sm:gap-8 md:gap-10">
         {(eyebrow || title || description) && (
           <div className={clsx('flex flex-col gap-4', alignment)}>
             {eyebrow ? (

@@ -18,7 +18,7 @@ const BackToTop = () => {
     <button
       type="button"
       aria-label="Back to top"
-      className="fixed bottom-6 left-6 z-40 rounded-full bg-charcoal p-3 text-white shadow-lg shadow-black/40 transition hover:scale-[1.05]"
+      className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-40 rounded-full bg-charcoal p-2.5 sm:p-3 text-white shadow-lg shadow-black/40 transition-all duration-300 hover:scale-110 hover:shadow-xl hover:shadow-black/60 min-h-[44px] min-w-[44px] touch-manipulation"
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-6 w-6">

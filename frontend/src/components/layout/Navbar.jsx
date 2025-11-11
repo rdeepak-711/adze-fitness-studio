@@ -19,8 +19,8 @@ const Navbar = () => {
         isScrolled ? 'border-light-gray/60 bg-white/95 shadow-lg shadow-black/5 backdrop-blur' : 'border-transparent bg-white'
       )}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-        <Link to="/" className="text-xl font-heading font-bold tracking-wide text-charcoal">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 sm:px-5 md:px-6 py-3 sm:py-4">
+        <Link to="/" className="text-lg sm:text-xl font-heading font-bold tracking-wide text-charcoal">
           Adze Fitness Studio
         </Link>
         <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
@@ -42,15 +42,18 @@ const Navbar = () => {
           type="button"
           className="rounded-full border border-charcoal/20 p-2 text-charcoal transition hover:border-crimson/40 md:hidden"
           onClick={() => setIsOpen((prev) => !prev)}
+          aria-label="Toggle navigation menu"
+          aria-expanded={isOpen}
+          aria-controls="mobile-menu"
         >
           <span className="sr-only">Toggle navigation</span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </button>
       </div>
       {isOpen ? (
-        <div className="md:hidden">
+        <nav id="mobile-menu" className="md:hidden" aria-label="Mobile navigation">
           <div className="space-y-4 border-t border-light-gray bg-white px-4 py-6">
             {NAV_LINKS.map((link) => (
               <Link
@@ -66,7 +69,7 @@ const Navbar = () => {
               Book a Trial
             </Button>
           </div>
-        </div>
+        </nav>
       ) : null}
     </header>
   )
