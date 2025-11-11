@@ -1,6 +1,10 @@
-# Adze Fitness Studio - Frontend
+# Adze Fitness Studio
 
-A modern, responsive fitness studio website built with React, Vite, and Tailwind CSS v4. This project showcases Adze Fitness Studio's programs, trainers, memberships, and community in Madipakkam, Chennai.
+A bold, high-energy, community-focused website for Adze Fitness Studio - a premium gym and fitness community in Madipakkam, Chennai, India.
+
+**Core Tagline:** "Train Together. Grow Stronger."
+
+A modern, responsive fitness studio website built with React, Vite, and Tailwind CSS v4. This project showcases Adze Fitness Studio's programs, trainers, memberships, and community.
 
 ## 🚀 Features
 
@@ -12,11 +16,34 @@ A modern, responsive fitness studio website built with React, Vite, and Tailwind
 - **Animations**: Smooth scroll reveals and transitions using Framer Motion
 - **Forms**: Contact form and Book a Trial form with validation
 - **Social Integration**: Instagram feed, WhatsApp FAB, social links
+- **Content Management**: JSON-based content structure for easy updates
+
+## 🎨 Design System
+
+### Color Palette
+
+- **Charcoal Black** (`#111111`): Primary text, backgrounds
+- **Crimson Red** (`#D72638`): CTAs, accents, highlights
+- **Pure White** (`#FFFFFF`): Backgrounds, text on dark
+- **Light Gray** (`#EFEFEF`): Dividers, subtle backgrounds
+
+### Typography
+
+- **Headings**: Montserrat (Bold, 700)
+- **Body**: Poppins (Regular, 400; Medium, 500)
+
+### Design Principles
+
+- High-energy, community-focused visual design
+- Warm, confident, energetic tone throughout
+- Mobile-first responsive design
+- Touch-friendly interactions (minimum 44x44px touch targets)
 
 ## 📋 Prerequisites
 
-- Node.js 18+ and npm
+- **Node.js** 18+ and npm
 - Modern web browser
+- Git (for version control)
 
 ## 🛠️ Setup & Installation
 
@@ -134,9 +161,16 @@ This project uses **Tailwind CSS v4** with a CSS-based configuration. Custom the
 - **Headings**: Montserrat (Bold, 700)
 - **Body**: Poppins (Regular, 400; Medium, 500)
 
-## 📊 Data Structure
+## 📊 Data Structure & Content Management
 
-All content is managed through JSON files in `src/data/`. This makes it easy to update content without modifying code.
+All content is managed through JSON files in `src/data/`. This makes it easy to update content without modifying code. The JSON-based approach allows non-technical team members to update content easily.
+
+### Why JSON?
+
+- **Easy Updates**: Change content without touching code
+- **Version Control**: Track content changes in Git
+- **Consistency**: Structured data ensures consistent formatting
+- **Future-Proof**: Easy to migrate to CMS later if needed
 
 ### Key Data Files
 
@@ -362,12 +396,63 @@ VITE_API_URL=https://api.example.com
 - **SEO**: Each page has unique meta tags via the `SEO` component
 - **Mobile-First**: All styles are designed mobile-first with responsive breakpoints
 
+## 🧪 Testing
+
+See `TESTING_CHECKLIST.md` in the project root for comprehensive testing guidelines covering:
+- Cross-browser testing
+- Device testing (mobile, tablet, desktop)
+- Functionality testing
+- Content review
+- Performance testing
+
+## 🚀 Deployment
+
+See `DEPLOYMENT.md` in the project root for detailed deployment guides for:
+- Vercel (recommended)
+- Netlify
+- AWS S3 + CloudFront
+- GitHub Pages
+- Traditional web hosting
+
+Quick deploy to Vercel:
+```bash
+npm run build
+vercel --prod
+```
+
+## 📝 Development Notes
+
+- **Code Splitting**: All page components are lazy-loaded for better performance
+- **Image Optimization**: Images use `loading="lazy"` for lazy loading
+- **Accessibility**: All interactive elements have proper ARIA labels
+- **SEO**: Each page has unique meta tags via the `SEO` component
+- **Mobile-First**: All styles are designed mobile-first with responsive breakpoints
+- **Forms**: Client-side validation with user-friendly error messages
+- **Animations**: Scroll-triggered animations using Framer Motion for performance
+
+## 🛠️ Tech Stack Details
+
+- **React 19**: Latest React with concurrent features
+- **Vite 7**: Fast build tool and dev server
+- **Tailwind CSS v4**: Utility-first CSS framework (CSS-based config)
+- **React Router DOM**: Client-side routing
+- **Framer Motion**: Animation library for smooth transitions
+- **React Hot Toast**: Toast notifications
+- **Swiper**: Carousel component (used for Instagram feed)
+
+## 📚 Additional Resources
+
+- **Component Documentation**: See component JSDoc comments in source files
+- **Data Structure**: See JSON files in `src/data/` for content structure
+- **Styling**: Custom theme defined in `src/index.css` using Tailwind v4 `@theme` directive
+
 ## 🤝 Contributing
 
 1. Create a feature branch
 2. Make your changes
-3. Test thoroughly
-4. Submit a pull request
+3. Test thoroughly (use `TESTING_CHECKLIST.md`)
+4. Update documentation if needed
+5. Submit a pull request
 
 ## 📄 License
 
