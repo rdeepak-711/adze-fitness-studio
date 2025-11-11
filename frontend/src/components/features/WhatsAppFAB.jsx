@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
+import { CONTACT } from '../../utils/constants'
 
-const WhatsAppFAB = ({ phone = '919342624788', message = 'Hey Adze team! I would love to book a trial session.' }) => {
+const WhatsAppFAB = ({ phone = CONTACT.phoneNumber, message = 'Hey Adze team! I would love to book a trial session.' }) => {
   const href = useMemo(() => {
     const encoded = encodeURIComponent(message)
     return `https://wa.me/${phone}?text=${encoded}`

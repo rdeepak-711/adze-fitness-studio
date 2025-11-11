@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import BookTrialForm from './BookTrialForm'
+import { CONTACT } from '../../utils/constants'
 
 const portalRoot = typeof document !== 'undefined' ? document.body : null
 
@@ -73,7 +74,7 @@ const BookTrialModal = ({ isOpen, onClose }) => {
           <div className="mt-8 border-t border-light-gray pt-6">
             <p className="text-center text-sm text-charcoal/60">
               Or reach us directly:{' '}
-              <a href="https://wa.me/919342624788" target="_blank" rel="noopener noreferrer" className="font-medium text-crimson hover:underline">
+              <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" className="font-medium text-crimson hover:underline">
                 Message on WhatsApp
               </a>
             </p>

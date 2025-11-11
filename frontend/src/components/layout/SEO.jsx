@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { SITE_NAME, SITE_TAGLINE, SITE_URL, DEFAULT_DESCRIPTION, DEFAULT_IMAGE, CONTACT, OPENING_HOURS } from '../../utils/constants'
 
 /**
  * SEO Component
@@ -20,11 +21,7 @@ import { useEffect } from 'react'
  *   keywords="fitness, gym, training"
  * />
  */
-const SITE_NAME = 'Adze Fitness Studio'
-const DEFAULT_TITLE = `${SITE_NAME} | Train Together. Grow Stronger.`
-const DEFAULT_DESCRIPTION = 'Premium gym and fitness community in Madipakkam, Chennai. Explore programs, transformations, and book your free trial.'
-const DEFAULT_IMAGE = 'https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1200&q=80'
-const SITE_URL = typeof window !== 'undefined' ? window.location.origin : 'https://adzefitnessstudio.com'
+const DEFAULT_TITLE = `${SITE_NAME} | ${SITE_TAGLINE}`
 
 const updateMetaTag = (name, content, attribute = 'name') => {
   let element = document.querySelector(`meta[${attribute}="${name}"]`)
@@ -102,31 +99,31 @@ const SEO = ({ title, description, image, type = 'website', keywords }) => {
       image: metaImage,
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '11 Kakkan Street',
-        addressLocality: 'Madipakkam',
-        addressRegion: 'Chennai',
-        postalCode: '600091',
-        addressCountry: 'IN'
+        streetAddress: CONTACT.addressParts.street,
+        addressLocality: CONTACT.addressParts.locality,
+        addressRegion: CONTACT.addressParts.region,
+        postalCode: CONTACT.addressParts.postalCode,
+        addressCountry: CONTACT.addressParts.country
       },
-      telephone: '+91-93426-24788',
+      telephone: CONTACT.phoneFormatted,
       priceRange: '$$',
       openingHoursSpecification: [
         {
           '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-          opens: '05:30',
-          closes: '22:00'
+          dayOfWeek: OPENING_HOURS.weekdays.days,
+          opens: OPENING_HOURS.weekdays.opens,
+          closes: OPENING_HOURS.weekdays.closes
         },
         {
           '@type': 'OpeningHoursSpecification',
-          dayOfWeek: 'Saturday',
-          opens: '06:00',
-          closes: '21:00'
+          dayOfWeek: OPENING_HOURS.saturday.day,
+          opens: OPENING_HOURS.saturday.opens,
+          closes: OPENING_HOURS.saturday.closes
         }
       ],
       sameAs: [
-        'https://instagram.com/adzefitnesstudio',
-        'https://wa.me/919342624788'
+        CONTACT.instagram,
+        CONTACT.whatsapp
       ]
     }
 

@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom'
 import Button from '../ui/Button'
-import { CONTACT, NAV_LINKS, CTA_TARGET } from '../../utils/constants'
+import { CONTACT, NAV_LINKS, CTA_TARGET, SITE_NAME, SITE_TAGLINE } from '../../utils/constants'
 
 const Footer = () => (
   <footer className="bg-charcoal text-white">
     <div className="mx-auto grid max-w-6xl gap-6 sm:gap-8 px-4 sm:px-5 md:px-6 py-8 sm:py-10 md:py-12 sm:grid-cols-1 md:grid-cols-3">
       <div>
-        <h3 className="text-base sm:text-lg font-semibold">Adze Fitness Studio</h3>
+        <h3 className="text-base sm:text-lg font-semibold">{SITE_NAME}</h3>
         <p className="mt-2 sm:mt-3 text-xs sm:text-sm text-white/70">
-          Train Together. Grow Stronger. Premium fitness community in Madipakkam, Chennai.
+          {SITE_TAGLINE}. Premium fitness community in Madipakkam, Chennai.
         </p>
         <Button as="a" href={CTA_TARGET} variant="light" className="mt-4 sm:mt-6 w-full sm:w-fit px-5 py-2 text-xs uppercase tracking-widest text-charcoal">
           Start Your Trial
@@ -135,14 +135,14 @@ const Footer = () => (
                 </svg>
               </div>
               <div>
-                <div className="font-medium">@adzefitnesstudio</div>
+                <div className="font-medium">{CONTACT.instagramHandle}</div>
                 <div className="text-xs text-white/50">Follow us</div>
               </div>
             </a>
           </li>
           <li>
             <a 
-              href="https://www.google.com/maps/place/Adze+Fitness+Studio/@12.9648698,80.1972382,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525dc2a2d4a7f9:0x40a2852fde0ec6fc!8m2!3d12.9648698!4d80.1998131!16s%2Fg%2F11f2xmyl2w?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D"
+              href={CONTACT.googleMapsUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-start gap-3 text-sm text-white/70 transition hover:text-white hover:translate-x-1 group"
@@ -164,7 +164,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="border-t border-white/10 bg-charcoal/90 py-4 text-center text-xs text-white/60">
-      © {new Date().getFullYear()} Adze Fitness Studio. All rights reserved.
+      © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
     </div>
   </footer>
 )
