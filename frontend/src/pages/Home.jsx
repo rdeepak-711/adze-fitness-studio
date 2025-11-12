@@ -9,6 +9,7 @@ import TestimonialCarousel from '../components/features/TestimonialCarousel'
 import InstagramFeed from '../components/features/InstagramFeed'
 import Reveal from '../components/features/Reveal'
 import SEO from '../components/layout/SEO'
+import { SEO_CONFIG } from '../utils/seoConfig'
 import Section from '../components/ui/Section'
 import Container from '../components/ui/Container'
 import Button from '../components/ui/Button'
@@ -34,10 +35,7 @@ const Home = () => {
   return (
     <>
       <SEO
-        title="Home"
-        description="Train Together. Grow Stronger. Join Madipakkam's most supportive fitness community. Led by expert trainers. Powered by real people."
-        keywords="fitness studio Chennai, gym Madipakkam, personal training, group fitness, HIIT, strength training, yoga, wellness"
-        image={heroData.backgroundMedia?.fallbackImage}
+        {...SEO_CONFIG['/']}
       />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

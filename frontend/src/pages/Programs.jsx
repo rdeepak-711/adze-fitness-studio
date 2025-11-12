@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import programsData from '../data/programs.json'
 import ProgramCard from '../components/features/ProgramCard'
 import SEO from '../components/layout/SEO'
+import { SEO_CONFIG } from '../utils/seoConfig'
 import Section from '../components/ui/Section'
 import Container from '../components/ui/Container'
 
@@ -17,10 +18,7 @@ const Programs = () => {
   return (
     <>
       <SEO
-        title="Programs"
-        description="Explore our fitness programs: HIIT Bootcamp, Strength Training, Yoga Therapy, and Personal Coaching. Find the perfect program for your fitness goals."
-        keywords="fitness programs, HIIT bootcamp, strength training, yoga therapy, personal coaching, group fitness classes"
-        image={programsData.programs?.[0]?.image}
+        {...SEO_CONFIG['/programs']}
       />
       <Section
         eyebrow="Programs"

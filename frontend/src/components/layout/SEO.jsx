@@ -33,6 +33,13 @@ const updateMetaTag = (name, content, attribute = 'name') => {
   element.setAttribute('content', content)
 }
 
+const removeMetaTag = (name, attribute = 'name') => {
+  const element = document.querySelector(`meta[${attribute}="${name}"]`)
+  if (element) {
+    element.parentNode.removeChild(element)
+  }
+}
+
 const updateLinkTag = (rel, href) => {
   let element = document.querySelector(`link[rel="${rel}"]`)
   if (!element) {
@@ -43,10 +50,12 @@ const updateLinkTag = (rel, href) => {
   element.setAttribute('href', href)
 }
 
-const SEO = ({ title, description, image, type = 'website', keywords }) => {
+const SEO = ({ title, description, image, type = 'website', keywords, author, publishDate }) => {
   const fullTitle = title ? `${title} • ${SITE_NAME}` : DEFAULT_TITLE
   const metaDescription = description || DEFAULT_DESCRIPTION
   const metaImage = image || DEFAULT_IMAGE
+  const authorName = author || SITE_NAME
+  const publishedTime = publishDate || null
 
   useEffect(() => {
     // Get current pathname from window.location (works with both client-side routing and direct navigation)
@@ -60,8 +69,22 @@ const SEO = ({ title, description, image, type = 'website', keywords }) => {
     if (keywords) {
       updateMetaTag('keywords', keywords)
     }
-    updateMetaTag('author', SITE_NAME)
+    updateMetaTag('author', authorName)
     updateMetaTag('robots', 'index,follow')
+    if (authorName) {
+      updateMetaTag('article:author', authorName, 'property')
+      updateMetaTag('twitter:creator', authorName)
+    } else {
+      removeMetaTag('article:author', 'property')
+      removeMetaTag('twitter:creator')
+    }
+    if (publishedTime) {
+      updateMetaTag('article:published_time', publishedTime, 'property')
+      updateMetaTag('article:modified_time', publishedTime, 'property')
+    } else {
+      removeMetaTag('article:published_time', 'property')
+      removeMetaTag('article:modified_time', 'property')
+    }
 
     // Open Graph tags
     updateMetaTag('og:type', type, 'property')
@@ -92,11 +115,19 @@ const SEO = ({ title, description, image, type = 'website', keywords }) => {
 
     const jsonLd = {
       '@context': 'https://schema.org',
-      '@type': type === 'website' ? 'Gym' : 'WebPage',
+      '@type': type === 'article' ? 'Article' : type === 'website' ? 'Gym' : 'WebPage',
       name: SITE_NAME,
       description: metaDescription,
       url: currentUrl,
       image: metaImage,
+      author: authorName
+        ? {
+            '@type': 'Person',
+            name: authorName
+          }
+        : undefined,
+      datePublished: publishedTime || undefined,
+      dateModified: publishedTime || undefined,
       address: {
         '@type': 'PostalAddress',
         streetAddress: CONTACT.addressParts.street,
@@ -128,7 +159,7 @@ const SEO = ({ title, description, image, type = 'website', keywords }) => {
     }
 
     structuredData.textContent = JSON.stringify(jsonLd)
-  }, [title, description, image, type, keywords, fullTitle, metaDescription, metaImage])
+  }, [title, description, image, type, keywords, authorName, publishedTime, fullTitle, metaDescription, metaImage])
 
   return null
 }

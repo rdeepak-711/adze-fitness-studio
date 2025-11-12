@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import wellnessData from '../data/wellness.json'
 import SEO from '../components/layout/SEO'
+import { SEO_CONFIG } from '../utils/seoConfig'
 import Section from '../components/ui/Section'
 import Container from '../components/ui/Container'
 import Card from '../components/ui/Card'
@@ -18,10 +19,7 @@ const Wellness = () => {
   return (
     <>
       <SEO
-        title="Wellness"
-        description="Discover our wellness programs: Yoga Therapy, Meditation, and Posture Clinics. Holistic wellness for body and mind at Adze Fitness Studio."
-        keywords="wellness programs, yoga therapy, meditation, posture correction, holistic wellness, mind-body fitness"
-        image={wellnessData.sections?.[0]?.image}
+        {...SEO_CONFIG['/wellness']}
       />
       <Section
         eyebrow="Wellness"

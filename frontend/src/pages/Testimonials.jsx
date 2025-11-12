@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import testimonialsData from '../data/testimonials.json'
 import TestimonialCarousel from '../components/features/TestimonialCarousel'
 import SEO from '../components/layout/SEO'
+import { SEO_CONFIG } from '../utils/seoConfig'
 import Section from '../components/ui/Section'
 import Container from '../components/ui/Container'
 import Card from '../components/ui/Card'
@@ -18,10 +19,7 @@ const Testimonials = () => {
   return (
     <>
       <SEO
-        title="Testimonials"
-        description="Read real success stories from Adze Fitness Studio members. See transformations, coach stories, and hear from our community in Madipakkam, Chennai."
-        keywords="fitness testimonials, gym reviews, transformation stories, success stories, member reviews Chennai"
-        image={testimonialsData.testimonials?.[0]?.media?.thumbnail || testimonialsData.testimonials?.[0]?.media?.url}
+        {...SEO_CONFIG['/testimonials']}
       />
       <Section
         eyebrow="Testimonials"

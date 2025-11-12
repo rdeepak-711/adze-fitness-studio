@@ -3,6 +3,7 @@ import aboutData from '../data/about.json'
 import trainersData from '../data/trainers.json'
 import TrainerCard from '../components/features/TrainerCard'
 import SEO from '../components/layout/SEO'
+import { SEO_CONFIG } from '../utils/seoConfig'
 import Section from '../components/ui/Section'
 import Container from '../components/ui/Container'
 import Card from '../components/ui/Card'
@@ -21,10 +22,7 @@ const About = () => {
   return (
     <>
       <SEO
-        title="About Us"
-        description="Learn about Adze Fitness Studio's mission, our expert trainers, and our commitment to building a supportive fitness community in Madipakkam, Chennai."
-        keywords="about Adze Fitness, fitness trainers Chennai, gym story, fitness community, certified trainers"
-        image={aboutData.story.image}
+        {...SEO_CONFIG['/about']}
       />
       {/* Brand Story Section */}
       <Section
