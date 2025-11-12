@@ -22,6 +22,7 @@ const Contact = () => {
         title="Contact Us"
         description="Get in touch with Adze Fitness Studio. Visit us at 11 Kakkan Street, Madipakkam, Chennai. Call, WhatsApp, or fill out our contact form to book your free trial."
         keywords="contact Adze Fitness, gym address Chennai, fitness studio contact, book trial, gym location Madipakkam"
+        image="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
       />
       {/* Hero Section */}
       <Section className="bg-gradient-to-b from-charcoal to-charcoal/95 text-white">

@@ -22,6 +22,7 @@ const Membership = () => {
         title="Membership"
         description="Choose from our flexible membership plans. From monthly passes to annual memberships, find the perfect plan for your fitness journey."
         keywords="gym membership Chennai, fitness membership plans, monthly gym pass, annual membership, fitness pricing"
+        image="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80"
       />
       <Section
         eyebrow="Membership"

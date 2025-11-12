@@ -21,6 +21,7 @@ const Wellness = () => {
         title="Wellness"
         description="Discover our wellness programs: Yoga Therapy, Meditation, and Posture Clinics. Holistic wellness for body and mind at Adze Fitness Studio."
         keywords="wellness programs, yoga therapy, meditation, posture correction, holistic wellness, mind-body fitness"
+        image={wellnessData.sections?.[0]?.image}
       />
       <Section
         eyebrow="Wellness"

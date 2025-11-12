@@ -20,6 +20,7 @@ const Programs = () => {
         title="Programs"
         description="Explore our fitness programs: HIIT Bootcamp, Strength Training, Yoga Therapy, and Personal Coaching. Find the perfect program for your fitness goals."
         keywords="fitness programs, HIIT bootcamp, strength training, yoga therapy, personal coaching, group fitness classes"
+        image={programsData.programs?.[0]?.image}
       />
       <Section
         eyebrow="Programs"

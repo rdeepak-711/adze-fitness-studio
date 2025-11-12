@@ -24,6 +24,7 @@ const About = () => {
         title="About Us"
         description="Learn about Adze Fitness Studio's mission, our expert trainers, and our commitment to building a supportive fitness community in Madipakkam, Chennai."
         keywords="about Adze Fitness, fitness trainers Chennai, gym story, fitness community, certified trainers"
+        image={aboutData.story.image}
       />
       {/* Brand Story Section */}
       <Section

@@ -21,6 +21,7 @@ const Testimonials = () => {
         title="Testimonials"
         description="Read real success stories from Adze Fitness Studio members. See transformations, coach stories, and hear from our community in Madipakkam, Chennai."
         keywords="fitness testimonials, gym reviews, transformation stories, success stories, member reviews Chennai"
+        image={testimonialsData.testimonials?.[0]?.media?.thumbnail || testimonialsData.testimonials?.[0]?.media?.url}
       />
       <Section
         eyebrow="Testimonials"

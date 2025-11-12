@@ -37,6 +37,7 @@ const Home = () => {
         title="Home"
         description="Train Together. Grow Stronger. Join Madipakkam's most supportive fitness community. Led by expert trainers. Powered by real people."
         keywords="fitness studio Chennai, gym Madipakkam, personal training, group fitness, HIIT, strength training, yoga, wellness"
+        image={heroData.backgroundMedia?.fallbackImage}
       />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">

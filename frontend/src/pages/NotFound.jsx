@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import SEO from '../components/layout/SEO'
+import { DEFAULT_IMAGE } from '../utils/constants'
 
 const NotFound = () => (
   <>
@@ -7,6 +8,7 @@ const NotFound = () => (
       title="Page Not Found"
       description="The page you're looking for doesn't exist. Return to Adze Fitness Studio homepage."
       type="website"
+      image={DEFAULT_IMAGE}
     />
     <div className="flex min-h-[60vh] flex-col items-center justify-center gap-6 px-4 text-center">
       <h1 className="text-6xl font-heading">404</h1>
